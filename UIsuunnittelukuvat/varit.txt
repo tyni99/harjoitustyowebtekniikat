@@ -1,0 +1,6 @@
+#FCF6ED background
+bootstrapgreen
+header = bootstrap dark
+
+Suunnittelut tehty figmalla ennen sivujen varsinaista aloitusta
+ja yritetty seurata suunnitelmaa mahdollisimman hyvin!

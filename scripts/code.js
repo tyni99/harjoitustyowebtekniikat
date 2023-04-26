@@ -1,15 +1,16 @@
+//kuuntelija
 document.getElementById("button").addEventListener("click", addNote);
 
+//haetaan paikka johon lopuksi tulostetaan
 let div = document.getElementById("divi");
-
+//määritellään checkbox
 let checkbox = document.getElementById("important");
 
+//hakee päiväyksen
 const d = new Date();
 
 
 function addNote() {
-
-
 
     let h6 = document.createElement("h6");
     let h5 = document.createElement("h5")
@@ -20,7 +21,6 @@ function addNote() {
     p.textContent = d;
 
     //onko checkboxissa täppi vai ei
-
     if (checkbox.checked) {
         h6.classList.add("important");
         h5.classList.add("important");

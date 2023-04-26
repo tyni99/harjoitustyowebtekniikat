@@ -1,5 +1,5 @@
-#FCF6ED background
-bootstrapgreen
+bakcground = #FCF6ED
+buttons = bootstrapgreen
 header = bootstrap dark
 
 Suunnittelut tehty figmalla 
